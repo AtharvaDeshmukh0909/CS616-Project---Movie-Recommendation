@@ -1,39 +1,6 @@
-## [Unrelated post - Connect with me on LinkedIn] 
-[09-01-2023] It's been almost three years since I completed this project and its documentation. Occasionally, I receive connection requests and questions from individuals on LinkedIn. Each time I return to this repository, I'm pleasantly surprised to see people taking an interest in it. This sense of community engagement warms my heart. I wholeheartedly invite all of you who stumble upon this material to connect with me on LinkedIn for any kind of clarifications or questions.
-
 # Recommender-System-on-MovieLens-dataset
 ## Project Overview
 Knowledge-based, Content-based and Collaborative Recommender systems are built on MovieLens dataset with 100,000 movie ratings. These Recommender systems were built using Pandas operations and by fitting KNN, SVD & deep learning models which use NLP techniques and NN architecture to suggest movies for the users based on similar users and for queries specific to genre, user, movie, rating, popularity.
-
-## Contents
-![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
-![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
-
-- [Recommender System Overview](#recommender-system-overview)
-   - [Content-based Filtering](#content-based-recommender-system)
-   - [Collaborative Filtering](#collaborative-recommender-system)
-   - [Knowledge based Recommender System](#knowledge-based-recommender-systems)
-   - [Hybrid Recommender](#hybrid-recommender-system)
-   - [Common Challenges](#common-challenges)
-   
- - [About DataSet](#about-dataset-used)
- 
- - [Data Visualizations and Manipulations](#Data-Visualizations-and-Manipulations)
- 	- Dataframes formed and used
- 	- [Reshaping the dataframe](#reshaping-the-dataframe-to-make-it-compatible-for-knn-algorithm-implementation)
-
-- Movie Recommender System Development
-	- [Knowledge based Recommender System](#knowledge-based-recommender-system)
-	- [Movie Recommendation Engine Development with KNN](#item-based-collaborative-recommender-system-using-knn)
-  		- [Movie Recommender System for a User](#movie-recommender-system-for-a-user)
-  		- [Movie Recommender System using Movie Name](#movie-recommender-system-using-movie-name) 
-        		- Along with [Dynamic movie name Suggestor](#dynamic-movie-name-suggestor)
-	- [Recommender System using Singular Value Decomposition(SVD)](#recommender-system-using-svd)
-	- [Recommender System using Deep Neural Network (DNN) models](#recommender-system-using-softmax-deep-neural-networks)
-  
-
-![GitHub Logo](Images/netflix-recommendation-s.jpeg)
-
 
 ## Recommender System Overview
 A recommender system is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item. Recommender systems are utilized in a variety of areas including movies, music, news, social tags, and products in general. Recommender systems typically produce a list of recommendations and there are few ways in which it can be done. Two of the most popular ways are – through collaborative filtering or through content-based filtering.
@@ -47,7 +14,6 @@ There are majorly six types of recommender systems which work primarily in the M
 - Hybrid recommender system
 - Demographic based recommender system
 - Utility based recommender system
-
 
 ![GitHub Logo](Images/coll-cont-pic.png)
 
